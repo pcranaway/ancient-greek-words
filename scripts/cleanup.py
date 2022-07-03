@@ -24,3 +24,5 @@ for word in stdin.readlines():
     word = ''.join(filter(lambda c: not c in string.ascii_letters + string.digits, word))
 
     print(word)
+
+    
